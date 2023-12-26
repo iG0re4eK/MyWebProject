@@ -15,6 +15,17 @@
   </head>
 
   <body>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="button">АДМИНИСТРИРОВАНИЕ</button>
+      <div id="myDropdown" class="opened">
+        <a href="#">МИГРАЦИЯ</a>
+        <a href="#">БЭКАПЫ</a>
+        <a href="#">АУДИТ БЕЗОПАСНОСТИ</a>
+        <a href="#">ОПТИМИЗАЦИЯ СКОРОСТИ</a>
+        <a href="#">ПЕРЕЕЗД НА HTTPS</a>
+      </div>
+    </div>
+
     <div class="flexbox-container">
       <div class="flexbox-item flexbox-item-1">
         <video autoplay loop muted>
@@ -84,34 +95,37 @@
     </div>
   </body>
   <div class="services">
-    <div
-      class="row"
-      style="
-        width: 100%;
-        color: #050c33;
-        font-size: 42px;
-        font-family: Montserrat;
-        font-weight: 700;
-        word-wrap: break-word;
-      "
-    >
-      13 лет совершенствуем компетенции в Drupal поддержке!
-    </div>
-    <div
-      class="row"
-      style="
-        width: 100%;
-        opacity: 0.7;
-        color: #050c33;
-        font-size: 16px;
-        font-family: Montserrat;
-        font-weight: 500;
-        line-height: 22px;
-        word-wrap: break-word;
-      "
-    >
-      Разрабатываем и оптимизируем модули, расширяем функциональность сайтов,
-      обновляем дизайн
+    <div class="drupal">
+      <div
+        class="row"
+        style="
+          width: 100%;
+          color: #050c33;
+          font-size: 42px;
+          font-family: Montserrat;
+          font-weight: 700;
+          word-wrap: break-word;
+        "
+      >
+        13 лет совершенствуем<br />
+        компетенции в Drupal поддержке!
+      </div>
+      <div
+        class="row"
+        style="
+          width: 100%;
+          opacity: 0.7;
+          color: #050c33;
+          font-size: 16px;
+          font-family: Montserrat;
+          font-weight: 500;
+          line-height: 22px;
+          word-wrap: break-word;
+        "
+      >
+        Разрабатываем и оптимизируем модули, расширяем функциональность сайтов,
+        обновляем дизайн
+      </div>
     </div>
 
     <div class="row">
@@ -255,5 +269,167 @@
       </div>
     </div>
   </div>
+  <div style="padding-top: 10%">
+    <div
+      style="
+        width: 100%;
+        text-align: center;
+        color: #050c33;
+        font-size: 42px;
+        font-family: Montserrat;
+        font-weight: 700;
+        word-wrap: break-word;
+        scale: 70%;
+      "
+    >
+      Поддержка<br />от Drupal-coder
+    </div>
+    <div class="box-rectangle">
+      <div class="rectangle">
+        <div class="numRect">01.</div>
+        <div class="nameRect">Постановка задачи по Email</div>
+        <div class="textRect">
+          Удобная и привычная модель постановки задач, при которой задачи
+          фиксируются и никогда<br />не теряются.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/support1.svg" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">02.</div>
+        <div class="nameRect">Система Helpdesk – отчетность, прозрачность</div>
+        <div class="textRect">
+          Возможность посмотреть все заявки в работе<br />
+          и отработанные часы<br />
+          в личном кабинете через браузер.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/pie-chart.svg" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">03.</div>
+        <div class="nameRect">Расширенная техническая<br />поддержка</div>
+        <div class="textRect">
+          Возможность организации расширенной техподдержки с 6:00<br />до 22:00
+          без выходных.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/settings.svg" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">04.</div>
+        <div class="nameRect">Персональный менеджер проекта</div>
+        <div class="textRect">
+          ш менеджер проекта всегда в курсе текущего состояния проекта<br />
+          и в любой момент готов ответить на любые вопросы.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/Ellipse.svg" />
+          <img src="rectangleImg/group (1).svg" class="overlay-dural-image" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">05.</div>
+        <div class="nameRect">Удобные способы оплаты</div>
+        <div class="textRect">
+          Безналичный расчет по договору или электронные деньги: WebMoney,
+          Яндекс.Деньги, Paypal.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/support5.svg" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">06.</div>
+        <div class="nameRect">Работаем с SLA<br />и NDA</div>
+        <div class="textRect">
+          Работа в рамках соглашений<br />
+          о конфиденциальности<br />
+          и об уровне качетсва работ.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/support6.svg" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">07.</div>
+        <div class="nameRect">
+          Штатные<br />
+          специалисты
+        </div>
+        <div class="textRect">
+          Надежные штатные специалисты, никаких фрилансеров.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/Ellipse.svg" />
+          <img src="rectangleImg/group.svg" class="overlay-dural-image" />
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="numRect">08.</div>
+        <div class="nameRect">
+          Удобные каналы<br />
+          связи
+        </div>
+        <div class="textRect">
+          Консультации по телефону, скайпу,<br />
+          в месенджерах.
+        </div>
+        <div class="container-rect">
+          <img src="rectangleImg/support8.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 100%; height: 100%; position: relative">
+    <div
+      style="
+        width: 1440px;
+        height: 839px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        background: linear-gradient(0deg, #394047 0%, #394047 100%),
+          linear-gradient(
+            261deg,
+            rgba(255, 255, 255, 0.55) 0%,
+            rgba(255, 255, 255, 0) 100%
+          );
+      "
+    ></div>
+    <div
+      style="
+        width: 923.6px;
+        height: 1053.56px;
+        padding-right: 0.23px;
+        left: 380px;
+        top: -101.76px;
+        position: absolute;
+        transform: rotate(-14.2deg);
+        transform-origin: 0 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        background: #000000, #ffffff00;
+      "
+    >
+      <img
+        style="width: 923.37px; height: 1053.56px"
+        src="https://via.placeholder.com/923x1054"
+      />
+    </div>
+  </div>
+  <!--<script src="menu.js"></script>-->
   <footer></footer>
 </html>
